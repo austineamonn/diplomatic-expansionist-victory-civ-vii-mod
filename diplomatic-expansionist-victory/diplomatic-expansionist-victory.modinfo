@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="diplomatic-expansionist-victory" version="1.0"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_DIPLOMATIC_EXPANSIONIST_VICTORY_NAME</Name>
+		<Description>LOC_MODULE_DIPLOMATIC_EXPANSIONIST_VICTORY_DESCRIPTION</Description>
+		<Authors>austineamonn</Authors>
+		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Version>1.0</Version>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+        <Mod id="core" title="LOC_MODULE_CORE_NAME"/>
+    </References>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<!-- Diplomatic and Expansionist Victories -->
+        <ActionGroup id="base-game-main-diplomatic-expansionist-victories" scope="game" criteria="always">
+			<Properties>
+                <LoadOrder>999</LoadOrder>
+            </Properties>
+            <Actions>
+				<UIScripts>
+					<Item>ui-next/culture-victory-tab.js</Item>
+					<Item>ui-next/science-victory.js</Item>
+					<Item>ui-next/victories-screen-model.js</Item>
+					<Item>ui-next/victories-screen.css</Item>
+					<Item>ui-next/victories-screen.js</Item>
+					<Item>ui-next/victories-screen.scss.js</Item>
+					<Item>ui-next/victories-screen.scss2.js</Item>
+					<Item>ui-next/victory-countdown-bar.js</Item>
+					<Item>ui-next/victory-tab-base.js</Item>
+				</UIScripts>
+				<ReplaceUIScript>
+					<Item>ui-next/culture-victory-tab.js</Item>
+					<Item>ui-next/science-victory.js</Item>
+					<Item>ui-next/victories-screen-model.js</Item>
+					<Item>ui-next/victories-screen.css</Item>
+					<Item>ui-next/victories-screen.js</Item>
+					<Item>ui-next/victories-screen.scss.js</Item>
+					<Item>ui-next/victories-screen.scss2.js</Item>
+					<Item>ui-next/victory-countdown-bar.js</Item>
+					<Item>ui-next/victory-tab-base.js</Item>
+				</ReplaceUIScript>
+                <UpdateText>
+					<Item>text/en_us/VictoriesText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+		<ActionGroup id="shell-diplomatic-expansionist-victories" scope="shell" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/en_us/VictoriesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

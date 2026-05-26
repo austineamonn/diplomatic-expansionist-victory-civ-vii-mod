@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_DIPLOMATIC_EXPANSIONIST_VICTORY_NAME">
+			<Text>Diplomatic and Expansionist Victories</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_DIPLOMATIC_EXPANSIONIST_VICTORY_DESCRIPTION">
+			<Text>Adds diplomatic and expansionist victories.</Text>
+		</Row>
+	</EnglishText>
+</Database>

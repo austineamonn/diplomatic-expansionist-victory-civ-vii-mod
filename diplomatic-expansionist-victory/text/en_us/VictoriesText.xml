@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+		<Row Tag="LOC_VICTORY_DIPLOMATIC_MODERN_NAME">
+			<Text>Diplomatic</Text>
+		</Row>
+		<Row Tag="LOC_VICTORY_EXPANSIONIST_MODERN_NAME">
+			<Text>Expansionist</Text>
+		</Row>
+		<Row Tag="LOC_VICTORY_PRESTIGE_NEEDED_TO_WIN">
+			<Text>Prestige needed to win</Text>
+		</Row>
+		<Row Tag="LOC_VICTORY_POPULATION_NEEDED_TO_WIN">
+			<Text>Population needed to win</Text>
+		</Row>
+		<Row Tag="LOC_VICTORIES_RULES_DIPLOMATIC">
+			<Text>
+				The [B]Diplomatic Victory[/B] is awarded to a leader when they achieve political dominance against all other leaders. This dominance is measured by [B]Presige[/B] and comes from the following sources:[NN][BLIST]
+				[LI][B]Endeavours and Sanctions[/B]: +1 Prestige per Endeavour or Sanction.
+				[LI][B]Suzeraining City States[/B]: +10 Prestige per Suzerained City State.
+				[LI][B]Espionage[/B]: +2 Prestige per successful Espionage.
+				[LI][B]Celebrations[/B]: +1 Prestige per Celebration.
+				[LI][B]War Support[/B]: +3 Prestige per War Support, including proxy wars.[/LIST][NN]Certain Triumphs in the Modern Age also provide Prestige.</Text>
+		</Row>
+		<Row Tag="LOC_VICTORIES_RULES_EXPANSIONIST">
+			<Text>
+				The [B]Expansionist Victory[/B] is awarded to a leader when they achieve demographic dominance against all other leaders. This dominance is measured by [B]Population[/B] and comes from the following sources:[NN][BLIST]
+				[LI][B]Rural Population[/B]: +1 Population.
+				[LI][B]Urban Population[/B]: +2 Population.
+				[LI][B]Specialists[/B]: +3 Population.
+				[/LIST][NN]Certain Triumphs in the Modern Age also provide Population.</Text>
+		</Row>
+		<Row Tag="LOC_VICTORY_DIPLOMATIC_GRAPH_TITLE">
+			<Text>% Share of World Prestige</Text>
+		</Row>
+		<Row Tag="LOC_VICTORY_EXPANSIONIST_GRAPH_TITLE">
+			<Text>% Share of World Population</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

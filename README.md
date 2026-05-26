@@ -10,4 +10,4 @@ None
 
 ## Latest Update:
 
-Initializing repository.
+Added in UI for expansionist and diplomatic victories. currently using economic victory as a baseline.
